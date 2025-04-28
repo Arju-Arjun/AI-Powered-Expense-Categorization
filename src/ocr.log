@@ -1,0 +1,793 @@
+2025-04-26 11:59:35,760 - INFO - Tesseract path set successfully
+2025-04-26 11:59:35,760 - INFO - Gemini API configured successfully
+2025-04-26 11:59:35,763 - INFO - Starting Flask server
+2025-04-26 11:59:35,793 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 11:59:35,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 11:59:35,816 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 11:59:38,408 - INFO - Tesseract path set successfully
+2025-04-26 11:59:38,408 - INFO - Gemini API configured successfully
+2025-04-26 11:59:38,411 - INFO - Starting Flask server
+2025-04-26 11:59:38,425 - WARNING -  * Debugger is active!
+2025-04-26 11:59:38,450 - INFO -  * Debugger PIN: 123-939-225
+2025-04-26 11:59:42,549 - INFO - Serving index.html
+2025-04-26 11:59:42,553 - INFO - 127.0.0.1 - - [26/Apr/2025 11:59:42] "GET / HTTP/1.1" 200 -
+2025-04-26 11:59:42,581 - INFO - 127.0.0.1 - - [26/Apr/2025 11:59:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 11:59:42,582 - INFO - 127.0.0.1 - - [26/Apr/2025 11:59:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-26 11:59:42,605 - INFO - Expenses retrieved successfully
+2025-04-26 11:59:42,607 - INFO - 127.0.0.1 - - [26/Apr/2025 11:59:42] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:00:12,172 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_70t4xgnn_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_70t4xgnn', '-l', 'eng', '--psm', '6', 'txt']
+2025-04-26 12:00:12,526 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_839u7l73_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_839u7l73', '-l', 'eng', '--psm', '4', 'txt']
+2025-04-26 12:00:12,730 - DEBUG - Raw OCR output: Tn nis oe E
+cipal HE Se? PITHORAGARH OE: RENE Bs
+ay Pace a Ee
+BEI, See a NTT a S
+et, f,s30Ste0ers dis! karaoss s'Ade177i 12 BS ios
+sore PS: OS! 27,5.UD oe -nebitinay 3 eocais2, se
+i FAM Bt NO =
+sO SEC AINOT S-TRANSPERABLE sea cen es) StL |
+
+
+2025-04-26 12:00:12,732 - DEBUG - Extracted: amount=0.0, merchant=Tn nis oe E, description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee, confidence=0.6
+2025-04-26 12:00:12,733 - DEBUG - OCR extracted: amount=0.0, merchant=Tn nis oe E, description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee, confidence=0.6
+2025-04-26 12:00:12,733 - WARNING - Low confidence extraction: Amount=0.0, Merchant=Tn nis oe E, Description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee
+2025-04-26 12:00:14,676 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-04-26 12:00:14,677 - INFO - Final category: transport, API hint: unknown
+2025-04-26 12:00:14,677 - INFO - 127.0.0.1 - - [26/Apr/2025 12:00:14] "POST /api/classify_image HTTP/1.1" 200 -
+2025-04-26 12:00:28,514 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_tdbzxxl0_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_tdbzxxl0', '-l', 'eng', '--psm', '6', 'txt']
+2025-04-26 12:00:28,974 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_ol9inudu_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_ol9inudu', '-l', 'eng', '--psm', '4', 'txt']
+2025-04-26 12:00:29,165 - DEBUG - Raw OCR output: Tn nis oe E
+cipal HE Se? PITHORAGARH OE: RENE Bs
+ay Pace a Ee
+BEI, See a NTT a S
+et, f,s30Ste0ers dis! karaoss s'Ade177i 12 BS ios
+sore PS: OS! 27,5.UD oe -nebitinay 3 eocais2, se
+i FAM Bt NO =
+sO SEC AINOT S-TRANSPERABLE sea cen es) StL |
+
+
+2025-04-26 12:00:29,165 - DEBUG - Extracted: amount=0.0, merchant=Tn nis oe E, description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee, confidence=0.6
+2025-04-26 12:00:29,166 - DEBUG - OCR extracted: amount=0.0, merchant=Tn nis oe E, description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee, confidence=0.6
+2025-04-26 12:00:29,166 - WARNING - Low confidence extraction: Amount=0.0, Merchant=Tn nis oe E, Description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee
+2025-04-26 12:00:29,535 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-04-26 12:00:29,536 - INFO - Final category: transport, API hint: unknown
+2025-04-26 12:00:29,536 - INFO - 127.0.0.1 - - [26/Apr/2025 12:00:29] "POST /api/classify_image HTTP/1.1" 200 -
+2025-04-26 12:00:48,221 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_5mvtmck4_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_5mvtmck4', '-l', 'eng', '--psm', '6', 'txt']
+2025-04-26 12:00:48,586 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_36y4bpzx_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_36y4bpzx', '-l', 'eng', '--psm', '4', 'txt']
+2025-04-26 12:00:48,807 - DEBUG - Raw OCR output: BOOKING. SUMMARY,
+
+FIN'AZ,(4.Ticket) “Rs. 1900.00
+INSIGNIA
+
+© Canverience fees Rs7086
+
+Subictd === SSt*=~C<CS~S*S*~S«&S ABD
+
+| QPZCEntIBUtGN {6.BookASITIs = AREA
+*F @liper ticket iad been add: ec) Removes
+
+Yourgurent states Maharastra
+
+Amount Payable" Bs.1971.80,,
+
+BOOKING. SUMMARY,
+
+INFAZ, (a'Ticket) “Rs. 1900.00
+INSIGNIA
+
+© Convenience fees
+
+Your current state is Maharashtfa®
+
+Amount Payable"
+
+
+2025-04-26 12:00:48,831 - DEBUG - Extracted: amount=1971.8, merchant=INSIGNIA, description=BOOKING. SUMMARY, FIN'AZ,(4.Ticket) “Rs. 1900.00 INSIGNIA, confidence=1.0
+2025-04-26 12:00:48,832 - DEBUG - OCR extracted: amount=1971.8, merchant=INSIGNIA, description=BOOKING. SUMMARY, FIN'AZ,(4.Ticket) “Rs. 1900.00 INSIGNIA, confidence=1.0
+2025-04-26 12:00:49,211 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-04-26 12:00:49,211 - INFO - Final category: entertainment, API hint: unknown
+2025-04-26 12:00:49,212 - INFO - 127.0.0.1 - - [26/Apr/2025 12:00:49] "POST /api/classify_image HTTP/1.1" 200 -
+2025-04-26 12:00:52,865 - INFO - Expense saved successfully
+2025-04-26 12:00:52,865 - INFO - 127.0.0.1 - - [26/Apr/2025 12:00:52] "POST /api/save_expense HTTP/1.1" 200 -
+2025-04-26 12:00:52,920 - INFO - Expenses retrieved successfully
+2025-04-26 12:00:52,922 - INFO - 127.0.0.1 - - [26/Apr/2025 12:00:52] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:01:08,571 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_2guhc4us_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_2guhc4us', '-l', 'eng', '--psm', '6', 'txt']
+2025-04-26 12:01:09,182 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_i_li55gr_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_i_li55gr', '-l', 'eng', '--psm', '4', 'txt']
+2025-04-26 12:01:09,366 - DEBUG - Raw OCR output: ee A
+: rae -CaRbonit ul
+ey tt ee a ont cbs :
+eR P hes Srey page onitcy Pik SAE
+fins eae es oe
+wher dst Beane & :
+aes “adc areas, sf
+c : Be at y sei rae fae fea ce
+oh Se fe Ati ee ps
+ae hea, » Stl aCTNEHATp hae ae
+ne #5. ica enon : :
+Sra 1 Tine! feat =f ; yl \
+" gat eee Ae ae oe
+G oe eae Fy pean 45 es
+iy “topes, fle "seat 10" pas
+akg oh i as cS ble
+Hs: ET. ‘HB, ia een aa ee
+: : a ane ioe gee aug a
+eee eine Lay ic :
+: a : at one oe ee a
+elk a SM ee : c
+ty Tee, 0G1458 4001 ‘ a
+Oh at, OTK ys ee A
+
+
+2025-04-26 12:01:09,367 - DEBUG - Extracted: amount=0.0, merchant=ee A, description=ee A : rae -CaRbonit ul ey tt ee a ont cbs :, confidence=0.6
+2025-04-26 12:01:09,367 - DEBUG - OCR extracted: amount=0.0, merchant=ee A, description=ee A : rae -CaRbonit ul ey tt ee a ont cbs :, confidence=0.6
+2025-04-26 12:01:09,368 - WARNING - Low confidence extraction: Amount=0.0, Merchant=ee A, Description=ee A : rae -CaRbonit ul ey tt ee a ont cbs :
+2025-04-26 12:01:09,731 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-04-26 12:01:09,731 - INFO - Final category: transport, API hint: unknown
+2025-04-26 12:01:09,732 - INFO - 127.0.0.1 - - [26/Apr/2025 12:01:09] "POST /api/classify_image HTTP/1.1" 200 -
+2025-04-26 12:03:15,681 - INFO - Serving index.html
+2025-04-26 12:03:15,683 - INFO - 127.0.0.1 - - [26/Apr/2025 12:03:15] "GET / HTTP/1.1" 200 -
+2025-04-26 12:03:15,706 - INFO - 127.0.0.1 - - [26/Apr/2025 12:03:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:03:15,709 - INFO - 127.0.0.1 - - [26/Apr/2025 12:03:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-26 12:03:15,795 - INFO - Expenses retrieved successfully
+2025-04-26 12:03:15,802 - INFO - 127.0.0.1 - - [26/Apr/2025 12:03:15] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:04:22,608 - DEBUG - Classify input: amount=500.0, merchant=indian mall, description=purchase vegtable
+2025-04-26 12:04:22,613 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-26 12:04:23,447 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=indian+mall&format=json&limit=1 HTTP/1.1" 200 2
+2025-04-26 12:04:24,841 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-04-26 12:04:24,841 - INFO - Classified as: transport, API hint: unknown
+2025-04-26 12:04:24,842 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:24] "POST /api/classify HTTP/1.1" 200 -
+2025-04-26 12:04:24,852 - ERROR - Failed to save expense: Missing required fields
+2025-04-26 12:04:24,853 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:24] "[31m[1mPOST /api/save_expense HTTP/1.1[0m" 400 -
+2025-04-26 12:04:38,226 - DEBUG - Classify input: amount=500.0, merchant=indian mall, description=purchase vegtable
+2025-04-26 12:04:38,613 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-04-26 12:04:38,614 - INFO - Classified as: transport, API hint: unknown
+2025-04-26 12:04:38,618 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:38] "POST /api/classify HTTP/1.1" 200 -
+2025-04-26 12:04:38,624 - ERROR - Failed to save expense: Missing required fields
+2025-04-26 12:04:38,624 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:38] "[31m[1mPOST /api/save_expense HTTP/1.1[0m" 400 -
+2025-04-26 12:04:43,050 - INFO - Serving index.html
+2025-04-26 12:04:43,052 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:43] "GET / HTTP/1.1" 200 -
+2025-04-26 12:04:43,076 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-26 12:04:43,076 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:04:43,098 - INFO - Expenses retrieved successfully
+2025-04-26 12:04:43,099 - INFO - 127.0.0.1 - - [26/Apr/2025 12:04:43] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:05:03,291 - DEBUG - Classify input: amount=340.0, merchant=indian mall, description=non-veg
+2025-04-26 12:05:03,679 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-04-26 12:05:03,679 - INFO - Classified as: transport, API hint: unknown
+2025-04-26 12:05:03,680 - INFO - 127.0.0.1 - - [26/Apr/2025 12:05:03] "POST /api/classify HTTP/1.1" 200 -
+2025-04-26 12:05:03,686 - ERROR - Failed to save expense: Missing required fields
+2025-04-26 12:05:03,686 - INFO - 127.0.0.1 - - [26/Apr/2025 12:05:03] "[31m[1mPOST /api/save_expense HTTP/1.1[0m" 400 -
+2025-04-26 12:06:13,638 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:06:13,639 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:06:13,639 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:06:16,470 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:07:07,131 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:07:11,195 - INFO - Tesseract path set successfully
+2025-04-26 12:07:11,196 - INFO - Gemini API configured successfully
+2025-04-26 12:07:11,198 - INFO - Starting Flask server
+2025-04-26 12:07:11,219 - WARNING -  * Debugger is active!
+2025-04-26 12:07:11,222 - INFO -  * Debugger PIN: 123-939-225
+2025-04-26 12:08:43,406 - INFO - Tesseract path set successfully
+2025-04-26 12:08:43,407 - INFO - Gemini API configured successfully
+2025-04-26 12:08:43,409 - INFO - Starting Flask server
+2025-04-26 12:08:43,443 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-26 12:08:43,443 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-26 12:08:43,453 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:08:46,072 - INFO - Tesseract path set successfully
+2025-04-26 12:08:46,072 - INFO - Gemini API configured successfully
+2025-04-26 12:08:46,075 - INFO - Starting Flask server
+2025-04-26 12:08:46,090 - WARNING -  * Debugger is active!
+2025-04-26 12:08:46,095 - INFO -  * Debugger PIN: 123-939-225
+2025-04-26 12:08:46,696 - INFO - Serving index.html
+2025-04-26 12:08:46,700 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:46] "GET / HTTP/1.1" 200 -
+2025-04-26 12:08:46,726 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:46] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-04-26 12:08:46,765 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:46] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-26 12:08:46,788 - INFO - Expenses retrieved successfully
+2025-04-26 12:08:46,789 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:46] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:48,120 - INFO - Serving index.html
+2025-04-26 12:08:48,121 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "GET / HTTP/1.1" 200 -
+2025-04-26 12:08:48,173 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:08:48,173 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-26 12:08:48,197 - INFO - Expenses retrieved successfully
+2025-04-26 12:08:48,198 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:48,362 - INFO - Serving index.html
+2025-04-26 12:08:48,363 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "GET / HTTP/1.1" 200 -
+2025-04-26 12:08:48,382 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:08:48,383 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-26 12:08:48,403 - INFO - Expenses retrieved successfully
+2025-04-26 12:08:48,406 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:48,587 - INFO - Serving index.html
+2025-04-26 12:08:48,588 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "GET / HTTP/1.1" 200 -
+2025-04-26 12:08:48,616 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:08:48,617 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-26 12:08:48,632 - INFO - Expenses retrieved successfully
+2025-04-26 12:08:48,633 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:48] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:48,680 - ERROR - Gemini API failed for strategies: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-04-26 12:08:48,757 - ERROR - Gemini API failed for strategies: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-04-26 12:08:49,896 - ERROR - Gemini API failed for strategies: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-04-26 12:08:50,083 - ERROR - Gemini API failed for strategies: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-04-26 12:08:50,342 - ERROR - Gemini API failed for tips: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-04-26 12:08:50,343 - INFO - Generated recommendations: {'entertainment': 1737.44, 'food': 480.0, 'shopping': 360.0, 'technology': 186.0, 'transport': 1245.9}, Most expensive: entertainment ($4343.60), Strategies: ['Review entertainment expenses to identify non-essential purchases.', 'Set a strict monthly budget for entertainment spending.', 'Explore cheaper alternatives for entertainment items or services.'], Tips: ['Create a monthly budget cap for entertainment to control spending.', 'Compare prices across vendors in entertainment to find savings.', 'Track entertainment expenses weekly to avoid overspending.']
+2025-04-26 12:08:50,344 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:50] "GET /api/recommend_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:50,379 - ERROR - Gemini API failed for tips: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-04-26 12:08:50,380 - INFO - Generated recommendations: {'entertainment': 1737.44, 'food': 480.0, 'shopping': 360.0, 'technology': 186.0, 'transport': 1245.9}, Most expensive: entertainment ($4343.60), Strategies: ['Review entertainment expenses to identify non-essential purchases.', 'Set a strict monthly budget for entertainment spending.', 'Explore cheaper alternatives for entertainment items or services.'], Tips: ['Create a monthly budget cap for entertainment to control spending.', 'Compare prices across vendors in entertainment to find savings.', 'Track entertainment expenses weekly to avoid overspending.']
+2025-04-26 12:08:50,381 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:50] "GET /api/recommend_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:50,473 - ERROR - Gemini API failed for tips: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-04-26 12:08:50,474 - INFO - Generated recommendations: {'entertainment': 1737.44, 'food': 480.0, 'shopping': 360.0, 'technology': 186.0, 'transport': 1245.9}, Most expensive: entertainment ($4343.60), Strategies: ['Review entertainment expenses to identify non-essential purchases.', 'Set a strict monthly budget for entertainment spending.', 'Explore cheaper alternatives for entertainment items or services.'], Tips: ['Create a monthly budget cap for entertainment to control spending.', 'Compare prices across vendors in entertainment to find savings.', 'Track entertainment expenses weekly to avoid overspending.']
+2025-04-26 12:08:50,475 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:50] "GET /api/recommend_expenses HTTP/1.1" 200 -
+2025-04-26 12:08:51,583 - ERROR - Gemini API failed for tips: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-04-26 12:08:51,584 - INFO - Generated recommendations: {'entertainment': 1737.44, 'food': 480.0, 'shopping': 360.0, 'technology': 186.0, 'transport': 1245.9}, Most expensive: entertainment ($4343.60), Strategies: ['Review entertainment expenses to identify non-essential purchases.', 'Set a strict monthly budget for entertainment spending.', 'Explore cheaper alternatives for entertainment items or services.'], Tips: ['Create a monthly budget cap for entertainment to control spending.', 'Compare prices across vendors in entertainment to find savings.', 'Track entertainment expenses weekly to avoid overspending.']
+2025-04-26 12:08:51,584 - INFO - 127.0.0.1 - - [26/Apr/2025 12:08:51] "GET /api/recommend_expenses HTTP/1.1" 200 -
+2025-04-26 12:10:05,037 - INFO - Serving index.html
+2025-04-26 12:10:05,042 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:05] "GET / HTTP/1.1" 200 -
+2025-04-26 12:10:05,069 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:10:05,073 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:05] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-26 12:10:05,088 - INFO - Expenses retrieved successfully
+2025-04-26 12:10:05,088 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:05] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:10:05,476 - ERROR - Gemini API failed for strategies: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-04-26 12:10:06,778 - ERROR - Gemini API failed for tips: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-04-26 12:10:06,779 - INFO - Generated recommendations: {'entertainment': 1737.44, 'food': 480.0, 'shopping': 360.0, 'technology': 186.0, 'transport': 1245.9}, Most expensive: entertainment ($4343.60), Strategies: ['Review entertainment expenses to identify non-essential purchases.', 'Set a strict monthly budget for entertainment spending.', 'Explore cheaper alternatives for entertainment items or services.'], Tips: ['Create a monthly budget cap for entertainment to control spending.', 'Compare prices across vendors in entertainment to find savings.', 'Track entertainment expenses weekly to avoid overspending.']
+2025-04-26 12:10:06,780 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:06] "GET /api/recommend_expenses HTTP/1.1" 200 -
+2025-04-26 12:10:22,511 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_o1c2bjkl_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_o1c2bjkl', '-l', 'eng', '--psm', '6', 'txt']
+2025-04-26 12:10:22,920 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_l6fetzd4_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_l6fetzd4', '-l', 'eng', '--psm', '4', 'txt']
+2025-04-26 12:10:23,114 - DEBUG - Raw OCR output: Tn nis oe E
+cipal HE Se? PITHORAGARH OE: RENE Bs
+ay Pace a Ee
+BEI, See a NTT a S
+et, f,s30Ste0ers dis! karaoss s'Ade177i 12 BS ios
+sore PS: OS! 27,5.UD oe -nebitinay 3 eocais2, se
+i FAM Bt NO =
+sO SEC AINOT S-TRANSPERABLE sea cen es) StL |
+
+
+2025-04-26 12:10:23,116 - DEBUG - Extracted: amount=0.0, merchant=Tn nis oe E, description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee, confidence=0.6
+2025-04-26 12:10:23,116 - DEBUG - OCR extracted: amount=0.0, merchant=Tn nis oe E, description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee, confidence=0.6
+2025-04-26 12:10:23,117 - WARNING - Low confidence extraction: Amount=0.0, Merchant=Tn nis oe E, Description=Tn nis oe E cipal HE Se? PITHORAGARH OE: RENE Bs ay Pace a Ee
+2025-04-26 12:10:23,476 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-04-26 12:10:23,476 - INFO - Final category: transport, API hint: unknown
+2025-04-26 12:10:23,477 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:23] "POST /api/classify_image HTTP/1.1" 200 -
+2025-04-26 12:10:40,074 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_8xx0br44_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_8xx0br44', '-l', 'eng', '--psm', '6', 'txt']
+2025-04-26 12:10:40,518 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_j09t7whj_input.PNG', 'C:\\Users\\ARJUNK~1\\AppData\\Local\\Temp\\tess_j09t7whj', '-l', 'eng', '--psm', '4', 'txt']
+2025-04-26 12:10:40,876 - DEBUG - Raw OCR output: Cae,
+ig .
+IndianOil
+"7 on
+PH Road,
+Chennai, “
+Tel. No.:
+Receipt No.! 006801
+Fcc ID: 900007242
+FIP No.! 02
+Nozzle No.1 04
+PRODUCT: Petrol
+RATE/LTR: ¢ 100.50
+AMOUNT: ; 500 8
+VOLUMECLTR.>: 4.98 lt 2
+YEH TYPE: Petrol
+YEH NO:
+CUSTOMER NANE:
+Timet
+Dates 17 Aug gg 42
+MODE: Cash
+LST No,:
+VAT No.:
+ATTENDENT IO: Not
+Available
+3
+a
+SAVE FUEL YAANI SAVE MONEY
+ff THANKS FOR FUELLING
+WITH US, YOU CAN NOW CALL]
+US ON 1800 226344 (TOLL-
+FREE) FOR
+QUERIES/COMPLAINTS. 5
+
+PH Road,
+Chennat, “
+Tel. No.:
+
+Receipt No.! 006801
+
+Fcc ID: 900007242
+
+FIP No.! 02
+
+Nozzle No.1 04
+
+PRODUCT: Petrol
+
+RATE/LTR: ¢ 100.50
+
+AMOUNT: ; 500 8
+VOLUMECLTR.>: 4.98 lt 2
+
+YEH TYPE: Petrol
+YEH NO:
+CUSTOMER NAME:
+
+Timet
+Datet 17 Aug 08:42
+MODE: Cash
+LST No,:
+VAT No.:
+ATTENDENT IO: Not
+Available
+
+3
+
+a
+SAVE FUEL YAANI SAVE MONEY
+
+ff THANKS FOR FUELLING
+WITH US, YOU CAN NOW CALL)
+US ON 1800 226344 (TOLL-
+FREE) FOR
+QUERIES/COMPLAINTS.
+
+2025-04-26 12:10:40,878 - DEBUG - Extracted: amount=100.5, merchant=IndianOil, description=Cae, ig . IndianOil, confidence=1.0
+2025-04-26 12:10:40,879 - DEBUG - OCR extracted: amount=100.5, merchant=IndianOil, description=Cae, ig . IndianOil, confidence=1.0
+2025-04-26 12:10:41,231 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 17
+}
+]
+2025-04-26 12:10:41,231 - INFO - Final category: transport, API hint: unknown
+2025-04-26 12:10:41,232 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:41] "POST /api/classify_image HTTP/1.1" 200 -
+2025-04-26 12:10:47,263 - INFO - Expense saved successfully
+2025-04-26 12:10:47,264 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:47] "POST /api/save_expense HTTP/1.1" 200 -
+2025-04-26 12:10:47,290 - INFO - Expenses retrieved successfully
+2025-04-26 12:10:47,291 - INFO - 127.0.0.1 - - [26/Apr/2025 12:10:47] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:11:47,032 - DEBUG - Classify input: amount=359.0, merchant=indian mall, description=hypermarket
+2025-04-26 12:11:47,038 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-26 12:11:47,578 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=indian+mall&format=json&limit=1 HTTP/1.1" 200 2
+2025-04-26 12:11:48,960 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-04-26 12:11:48,961 - INFO - Classified as: transport, API hint: unknown
+2025-04-26 12:11:48,961 - INFO - 127.0.0.1 - - [26/Apr/2025 12:11:48] "POST /api/classify HTTP/1.1" 200 -
+2025-04-26 12:11:48,973 - INFO - Expense saved successfully
+2025-04-26 12:11:48,974 - INFO - 127.0.0.1 - - [26/Apr/2025 12:11:48] "POST /api/save_expense HTTP/1.1" 200 -
+2025-04-26 12:11:48,998 - INFO - Expenses retrieved successfully
+2025-04-26 12:11:48,999 - INFO - 127.0.0.1 - - [26/Apr/2025 12:11:48] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:12:42,432 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:12:42,443 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:12:42,443 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:12:42,444 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:12:45,714 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:12:49,945 - WARNING -  * Debugger is active!
+2025-04-26 12:12:49,949 - INFO -  * Debugger PIN: 123-939-225
+2025-04-26 12:14:09,701 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:14:09,701 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\OneDrive\\Desktop\\Ai finance mangement\\src\\app.py', reloading
+2025-04-26 12:14:10,981 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:15:29,236 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:15:44,947 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:17:22,849 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:18:47,834 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-26 12:18:51,826 - WARNING -  * Debugger is active!
+2025-04-26 12:18:51,829 - INFO -  * Debugger PIN: 123-939-225
+2025-04-26 12:18:59,505 - INFO - 127.0.0.1 - - [26/Apr/2025 12:18:59] "GET / HTTP/1.1" 200 -
+2025-04-26 12:18:59,538 - INFO - 127.0.0.1 - - [26/Apr/2025 12:18:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-04-26 12:18:59,542 - INFO - 127.0.0.1 - - [26/Apr/2025 12:18:59] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-26 12:18:59,562 - INFO - 127.0.0.1 - - [26/Apr/2025 12:18:59] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:19:14,126 - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2025-04-26 12:19:14,127 - INFO - 127.0.0.1 - - [26/Apr/2025 12:19:14] "POST /api/classify HTTP/1.1" 200 -
+2025-04-26 12:19:14,145 - INFO - 127.0.0.1 - - [26/Apr/2025 12:19:14] "POST /api/save_expense HTTP/1.1" 200 -
+2025-04-26 12:19:14,181 - INFO - 127.0.0.1 - - [26/Apr/2025 12:19:14] "GET /api/get_expenses HTTP/1.1" 200 -
+2025-04-26 12:26:04,830 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-04-26 12:26:04,832 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-04-26 12:26:05,089 - INFO -  * Detected change in 'C:\\Users\\ARJUN K\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py', reloading
+2025-04-26 12:26:07,496 - INFO -  * Restarting with watchdog (windowsapi)
